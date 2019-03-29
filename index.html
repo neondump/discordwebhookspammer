@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebHook Spammer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <img src="img/img.png" alt="">
+            <h1>Webhook Spammer</h1>
+            <h4>Token istemiyoruz!</h4>
+            <input placeholder="Webhook URL" id="webhook-url" class="form-control" type="text"><br>
+            <input placeholder="Gönderilecek Mesaj" id="msg" class="form-control" type="text">
+            <input placeholder="Username" id="username" class="form-control" type="text"><br>
+            <input placeholder="Avatar URL" id="avatar" class="form-control" type="text">
+            <input placeholder="Kaç tane göndersin" id="msgamt" class="form-control" type="text"><br><br>
+            <a href="#" id="start" class="btn">Spama Başla!</a>
+        </div>
+
+        <div class="progress-div" style="display: none;">
+            <img src="img/rape.gif">
+            <h1 id="progress"><span id="numer"></span> / <span id="denom"></span></h1>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
